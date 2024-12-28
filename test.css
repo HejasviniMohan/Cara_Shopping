@@ -1,0 +1,192 @@
+@media (max-width:799px) {
+    .section-p1 {
+      padding: 40px 40px;
+    }
+    #navbar {
+      display:flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      top: 0;
+      right: -300px;
+      height: 100vh;
+      width: 300px;
+      background-color: #E3E6F3;
+      box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+      padding: 80px 0 0 10px;
+      transition: 0.3s;
+    }
+  }
+  #navbar .active{
+    right: 0px;
+  }
+  
+    #navbar li{
+      margin-bottom: 25px;
+    }
+  
+    #mobile{
+      display: flex;
+      align-items: center;
+    }
+  
+    #mobile i{
+      color: #1a1a1a;
+      font-size: 24px;
+      padding-left: 20px; 
+    }
+        
+  #close{
+    display: initial;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: #222;
+    font-size: 24px;
+  }
+  
+  #lg-bag{
+    display: none;
+  }
+   
+  #hero{
+    height: 90vh;
+    padding: 0 80px;
+    background-position: top 30% right 30%;
+  }
+  
+  #feature{
+    justify-content: center;
+  }
+  
+  #feature .fe-box {
+    margin: 15px 15px;
+  }
+  
+  #prodect1 .pro-container{
+    justify-content: center;
+  }
+    
+  #product1 .pro{
+    margin: 15px;
+  }
+  
+  #banner{
+    height: 20vh;
+  }
+  
+  #sm-banner .banner-box{
+    min-width: 100%;
+    height: 30vh;
+  }
+  
+  #banner3{
+    padding: 0 40px;;
+  }
+  
+  #banner3 .banner-box{
+    width: 28%;
+  }
+  
+
+  <script>
+  var MainImg = document.getElementById("MainImg");
+  var smallimg = document.getElementById("small-img");
+
+  smallimg[0].onclick = function(){
+      MainImg.src = smallimg[0].src;
+  }
+  smallimg[1].onclick = function(){
+      MainImg.src = smallimg[1].src;
+  }
+  smallimg[2].onclick = function(){
+      MainImg.src = smallimg[2].src;
+  }
+  smallimg[3].onclick = function(){
+      MainImg.src = smallimg[3].src;
+  }
+
+</script>
+
+
+  /*About Page*/
+  #about-head {
+    display: flex;
+    align-items: center;
+  }
+  #about-head img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #about-head div {
+    padding-left: 0px;
+  }
+  #about-app .video {
+    width: 10%;
+    height: 100%;
+    margin: 30px auto 0 auto;
+
+  }
+}
+
+
+/*new*/
+#cart table thead {/*it is not working from here*/
+  border: 1px solid #1a1a1a;
+  border-left: none;
+  border-right: none;
+}
+
+/*newest*/
+<footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="website/img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p> <strong>Address: </strong>562 Wellington Road, Street32, San Francisco</p>
+            <p> <strong>Phone: </strong>+01 2222 365 /(+91) 01 2345 6789</p>
+            <p> <strong>Hours: </strong> 10:00 - 18:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="website/img/pay/app.jpg" alt="">
+                <img src="website/img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="website/img/pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>@ 2021, Tech2 etc - HTML CSS Ecomerce Template</p>
+        </div>
+    </footer>
